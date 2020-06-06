@@ -1,4 +1,4 @@
-class catch
+class Cat
   attr_accessor :name 
   
   def meow
@@ -6,5 +6,6 @@ class catch
   end 
 end 
 
-
+felix = Cat.new
+felix.name = "Felix"
 
